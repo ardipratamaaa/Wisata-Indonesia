@@ -1,44 +1,48 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial;
+    margin: 0;
 }
 
-/* HEADER */
 .banner {
-  background-color: #2c3e50;
-  color: white;
-  text-align: center;
-  padding: 30px;
+    background: #2c7be5;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-/* NAVBAR */
 nav {
-  background-color: #34495e;
-  padding: 10px;
-  text-align: center;
+    background: #333;
+    text-align: center;
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
+    color: white;
+    padding: 14px;
+    display: inline-block;
+    text-decoration: none;
 }
 
 nav a:hover {
-  color: yellow;
+    background: #555;
 }
 
-/* ISI */
 main {
-  padding: 20px;
+    padding: 20px;
 }
 
-/* FOOTER */
+.galeri div {
+    display: inline-block;
+    margin: 10px;
+}
+
+.galeri img {
+    width: 200px;
+    height: 150px;
+}
+
 footer {
-  background-color: #2c3e50;
-  color: white;
-  text-align: center;
-  padding: 10px;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
